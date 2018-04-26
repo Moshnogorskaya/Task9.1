@@ -1,0 +1,35 @@
+body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, big, cite, code, em, img, ins, q, s,
+small, strong, b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, table, caption, tbody,
+tfoot, thead, tr, th, td, canvas, footer, header, 
+menu, nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border: 1px solid lightgray;
+}
+
+
+/* Main part */
+
+.form {
+  min-width: 100px;
+  max-width: 900px;
+  width: 80%;
+  margin: 100px auto;
+  flex-direction:column;
+}
+.form__header {
+  height: 30px;
+}
+.header__column {
+    width:50%;
+}
+.content {
+    height: 200px;
+}
+.form__field {
+    width: 50%;
+}
