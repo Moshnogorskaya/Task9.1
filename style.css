@@ -1,7 +1,7 @@
 body, div, span, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, big, cite, code, em, img, ins, q, s,
-small, strong, b, u, i, dl, dt, dd, ol, ul, li,
+small, strong, u, i, dl, dt, dd, ol, ul, li,
 fieldset, form, label, table, caption, tbody,
 tfoot, thead, tr, th, td, canvas, footer, header, 
 menu, nav, input {
@@ -9,7 +9,7 @@ menu, nav, input {
   margin: 0;
   display: flex;
   box-sizing: border-box;
-  font-family:sans-serif;
+  font-family: Arial, sans-serif !important;
 }
 
 
@@ -50,5 +50,10 @@ menu, nav, input {
     border: 0;
     outline: 0;
     padding: 20px;
-    resize: none;   
+    resize: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif !important;
+    display: block;
+    overflow-y: auto;
+    white-space: pre-wrap;
 }
